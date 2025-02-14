@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --animate-fade-in-translate: fade-in-scale 8s ease-out;
+  @keyframes fade-in-scale {
+    0% {
+      transform: translateX(-0%);
+    }
+    40% {
+      transform: translateX(-100%);
+    }
+    80% {
+        transform: translateX(-100%);
+      }
+      120% {
+        transform: translateX(-100%);
+      }
+  }
+}
