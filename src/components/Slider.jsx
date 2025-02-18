@@ -1,10 +1,11 @@
 import bgimage from "../assets/img.jpg";
 import "../App.css";
+import { MdOutlineSlowMotionVideo } from "react-icons/md";
 
 const Slider = () => {
   return (
     <section className="  flex ">
-      <div className=" w-full flex  relative  ">
+      <div className=" w-full flex  relative overflow-hidden ">
         <img
           alt="Your Company"
           src={`${bgimage}`}
@@ -26,19 +27,21 @@ const Slider = () => {
               your challenge
             </div>
           </div>
-          <div className="flex w-96 md:w-full flex-wrap">
-            <button className="rounded-md px-4 w-40 h-14 bg-amber-600 text-center items-center">
-              {" "}
-              <h1> join</h1>{" "}
-            </button>
-            <button className="rounded-md  w-40 h-14 bg-amber-600">
-              {" "}
-              JOIN NOW2{" "}
-            </button>
-            <button className="rounded-md w-40 h-14 bg-amber-600">
-              {" "}
-              JOIN NOW2{" "}
-            </button>
+          <div className="flex  md:w-full flex-wrap">
+            <input
+              type="submit"
+              className=" mr-4 w-47 h-18 bg-amber-600 text-white font-bold text-[1.5rem] hover:bg-amber-700 transition duration-500 ease-out"
+              value={"JOIN NOW"}
+            ></input>
+            <input
+              type="button"
+              className=" mr-4   w-47  h-18 bg-white font-bold text-[1.5rem] hover:bg-gray-200 transition duration-500 ease-out"
+              value={"COURSES"}
+            ></input>
+            <div className=" flex   items-center justify-center gap-2 mr-4 md:mt-0 mt-3  w-47 h-18 hover:scale-115 transition duration-500 ease-out">
+              <MdOutlineSlowMotionVideo className="text-white text-5xl shadow-2xl " />
+              <div className="text-white text-xl"> Watch Video</div>
+            </div>
           </div>
         </div>
       </div>
