@@ -28,16 +28,24 @@ const Slider = () => {
             </div>
           </div>
           <div className="flex  md:w-full flex-wrap">
-            <input
-              type="submit"
-              className=" mr-4 w-47 h-18 bg-amber-600 text-white font-bold text-[1.5rem] hover:bg-amber-700 transition duration-500 ease-out"
-              value={"JOIN NOW"}
-            ></input>
-            <input
-              type="button"
-              className=" mr-4   w-47  h-18 bg-white font-bold text-[1.5rem] hover:bg-gray-200 transition duration-500 ease-out"
-              value={"COURSES"}
-            ></input>
+            <a
+              href="https://forms.gle/zFnEUKRRU5GhSaxz9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center mr-4 w-47 h-18 bg-amber-600 text-white font-bold text-[1.5rem] hover:bg-amber-700 transition duration-500 ease-out"
+            >
+              JOIN NOW
+            </a>
+
+            <a
+              href="https://forms.gle/zFnEUKRRU5GhSaxz9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center mr-4   w-47  h-18 bg-white font-bold text-[1.5rem] hover:bg-gray-200 transition duration-500 ease-out"
+            >
+              FILL FORM
+            </a>
+
             <div className=" flex   items-center justify-center gap-2 mr-4 md:mt-0 mt-3  w-47 h-18 hover:scale-115 transition duration-500 ease-out">
               <MdOutlineSlowMotionVideo className="text-white text-5xl shadow-2xl " />
               <div className="text-white text-xl"> Watch Video</div>

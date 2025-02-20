@@ -1,4 +1,4 @@
-import img1 from "../assets/img3.jpg";
+import img1 from "../assets/img1.jpg";
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
 import { MdBookOnline } from "react-icons/md";
 import {
@@ -25,16 +25,22 @@ const SectionTwo = () => {
           className=" hidden md:block lg:mt-12 mt-4 md:mt-8 w-[320px] h-[300px]"
         />
         <div className="  hidden  md:flex mt-4 md:mt-6">
-          <input
-            type="button"
-            className="rounded-sm mr-2 w-38 h-10 bg-black text-white"
-            value={"DOWNLOAD FORM"}
-          ></input>
-          <input
-            type="button"
-            className="rounded-sm w-38 h-10 bg-black text-white"
-            value={"DOWNLOAD FORM"}
-          ></input>
+          <a
+            href="https://forms.gle/zFnEUKRRU5GhSaxz9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-sm mr-2 w-38 h-10 bg-black text-white flex items-center justify-center"
+          >
+            FILL FORM
+          </a>
+          <a
+            href="https://forms.gle/zFnEUKRRU5GhSaxz9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-sm w-38 h-10 bg-black text-white flex items-center justify-center"
+          >
+            FILL FORM
+          </a>
         </div>
       </div>
       <div className="flex  lg:gap-10 gap-8 lg:w-2/3 md:gap-10 mt-8 md:mt-0 ml-8 md:ml-0 md:px-0 flex-col justify-center  text-white">
